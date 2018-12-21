@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
   res.render('index', { 
     title: 'Welcome, to My Portfolio.',
     project_thumbnails: projects[0].project_thumbnails,
-    live_link: projects[0].live_link,
+    project_link: projects[0].project_link,
     project_name: projects[0].project_name
   });
 });
