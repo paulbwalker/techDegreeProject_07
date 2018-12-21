@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  nav.grid-container.portfolio-breadcrumb
+      a(href='/') ← Back
+
+  h1.error-container= error.message
+  h2.error-container= error.status
+  pre.error-container= error.stack
