@@ -5,11 +5,11 @@ block content
     div
 
       //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
-      h1= title
+      h1= heading
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's suppossed to accomplish, etc. 
       p.lead.text-light
-        | Here is a sample of the project I have been created with techdegree so far.
+        | These are some of the projects I have created with the techdegree program so far.
   article.grid-container.portfolio-index
     
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
@@ -19,8 +19,10 @@ block content
       //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
 
       //- Here's what the Pug for each project example should look like. 
-      .cell
-        a(href=`${project_link}`)
-          img.thumbnail(src=`${project_thumbnails}`)
-          h5= project_name
+      each project in assignment
+        .cell
+          a(href=`${project.project_link}`)
+            img.thumbnail(src=`${project.project_thumbnails}`)
+            h5 
+              | #{project.project_name}
       

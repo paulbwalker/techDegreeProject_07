@@ -1,22 +1,21 @@
 const express = require('express');
 const router = express.Router();
-const { data } = require('../data/projectsData.json');
-const { projects } = data;
+const assignment = require('../data/project.json');
 
+// serve static files from the public folder
 router.use(express.static('public'));
 
 router.get('/', (req, res) => {
   res.render('index', { 
-    title: 'Welcome, to My Portfolio.',
-    project_thumbnails: projects[0].project_thumbnails,
-    project_link: projects[0].project_link,
-    project_name: projects[0].project_name
+    myName: 'Paul B. Walker',
+    heading: 'Welcome, to My Portfolio',
+    assignment: assignment.projects
   });
 });
 
 router.get('/about', (req, res) => {
   res.render('about', { 
-    name: "Paul B. walker", 
+    myName: "Paul B. walker", 
     about: "a(href='/about') Learn More →"
   });
 });

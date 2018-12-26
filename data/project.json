@@ -1,0 +1,59 @@
+{
+  "projects": [
+    {
+      "id": "0",
+      "project_name": "Random Quote Generator",
+      "description": "Displays a random quote when you click on the button. The background color will change and if you do not click the button within 31 seconds the quote will automatically change.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://paulbwalker5490.github.io/project1/index.html",
+      "github_link": "https://github.com/paulbwalker/techDegreeProject_01",
+      "image_urls": ["../images/project-11.png", "../images/project-12.png", "../images/project-13.png"],
+      "project_thumbnails": "../images/thumbnails/project1.png",
+      "project_link": "project/0"
+    },
+    {
+      "id": "1",
+      "project_name": "List Pagination and Filtering",
+      "description": "Displays a list of ten students per page. Create a page link per ten students and the remaining students will also have a page. Students can be filter by typing the students name in the search bar",
+      "technologies": ["HTML", "CSS", "jQuery"],
+      "live_link": "https://paulbwalker5490.github.io/project2/index.html",
+      "github_link": "https://github.com/paulbwalker/techDegreeProject_02",
+      "image_urls": ["../images/project-21.png", "../images/project-22.png", "../images/project-23.png"],
+      "project_thumbnails": "../images/thumbnails/project2.png",
+      "project_link": "project/1"
+    },
+    {
+      "id": "2",
+      "project_name": "Interactive Form",
+      "description": "To create an interactive registration form for 'FullStack Conif.' Adding interactivity by creating helpful error messages when the user enters invalid information into the form fields." ,
+      "technologies": ["HTML", "CSS", "jQuery"],
+      "live_link": "https://paulbwalker5490.github.io/project3/index.html",
+      "github_link": "https://github.com/paulbwalker/techDegreeProject_03",
+      "image_urls": ["../images/project-31.png", "../images/project-32.png", "../images/project-33.png"],
+      "project_thumbnails": "../images/thumbnails/project3.png",
+      "project_link": "project/2"
+    },
+    {
+      "id": "3",
+      "project_name": "Tic Tac Toe Game",
+      "description": "Build a two-person Tic Tac Toe game that requires players to add their names, take turns adding an X or O to the game board and annouce when the game ends. Also build a one player game that goes against the computer." ,
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://paulbwalker5490.github.io/project4/index.html",
+      "github_link": "https://github.com/paulbwalker/techDegreeProject_04",
+      "image_urls": ["../images/project-41.png", "../images/project-42.png", "../images/project-43.png"],
+      "project_thumbnails": "../images/thumbnails/project4.png",
+      "project_link": "project/3"
+    },
+    {
+      "id": "4",
+      "project_name": "Use a Public API to list Employee Directory",
+      "description": "Writing a client-side employee directory, fetching data from a public API and displaying it on your website. Creating a modal pop-up window for more information and click back and forth through the employees or use a filter search to filter the employee." ,
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://paulbwalker5490.github.io/project5/index.html",
+      "github_link": "https://github.com/paulbwalker/techDegreeProject_05",
+      "image_urls": ["../images/project-51.png", "../images/project-52.png", "../images/project-53.png"],
+      "project_thumbnails": "../images/thumbnails/project5.png",
+      "project_link": "project/4"
+    }
+  ]
+}
