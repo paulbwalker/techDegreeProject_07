@@ -2,6 +2,12 @@
 h1,h2,h3,h4,h5{
   font-family: 'Oxygen', sans-serif;
 }
+  h1 {
+    text-shadow: 1px 1px 2px #666;
+  }
+  .move-right {
+    margin-left: 25px;
+  }
 
   h5{
     font-family: 'Poppins', sans-serif;

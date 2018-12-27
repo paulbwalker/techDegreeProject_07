@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const assignment = require('../data/project.json');
+const assignment = require('../data/data.json');
 const { projects } = assignment;
 
 

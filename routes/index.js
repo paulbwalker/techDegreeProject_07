@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const assignment = require('../data/project.json');
+const assignment = require('../data/data.json');
 
 // serve static files from the public folder
 router.use(express.static('public'));
